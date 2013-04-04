@@ -1,0 +1,13 @@
+body{
+	background: url(../img/background3.png) repeat;
+}
+#wrapper{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+	background: url(../img/hd_background2.png) repeat;
+	height: 64px;
+	width: 100%;
+}
