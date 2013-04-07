@@ -1,5 +1,6 @@
 body{
 	background: url(../img/background3.png) repeat;
+	font-style: Arial, Helvetica, sans-serif;
 }
 #wrapper{
 	width: 980px;
@@ -10,4 +11,15 @@ body{
 	background: url(../img/hd_background2.png) repeat;
 	height: 64px;
 	width: 100%;
+}
+.home_icon{
+		background: url(../img/hd_home.png) no-repeat;
+		width: 13px;
+		height: 12px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
 }
