@@ -1,25 +1,124 @@
-body{
-	background: url(../img/background3.png) repeat;
-	font-style: Arial, Helvetica, sans-serif;
+body {
+	background: url(../img/background6.png) repeat;
+	font: 12px sans-serif Arial Helvetica;
 }
-#wrapper{
+#wrapper {
 	width: 980px;
+	box-shadow: 0px 0px 2px #888;
 	margin-left: auto;
 	margin-right: auto;
 }
-#header{
-	background: url(../img/hd_background2.png) repeat;
-	height: 64px;
+
+/* HEADER */
+#header {
+	background: url(../img/hd_background.png) repeat;
+	height: 67px;
 	width: 100%;
 }
-.home_icon{
-		background: url(../img/hd_home.png) no-repeat;
-		width: 13px;
-		height: 12px;
-}
-.left{
+.hd_bt {
 	float: left;
 }
-.right{
+#lor_ips_bt {
+	background: url(../img/hd_LorIps.png) no-repeat;
+	height: 64px;
+	width: 130px;
+}
+#nibh_bt {
+	background: url(../img/hd_nibh.png) no-repeat;
+	height: 64px;
+	width: 105px;
+}
+#dolor_bt {
+	background: url(../img/hd_dolor.png) no-repeat;
+	height: 64px;
+	width: 103px;
+}
+#nullam_bt {
+	background: url(../img/hd_nullam.png) no-repeat;
+	height: 64px;
+	width: 107px;
+}
+#eros_bt {
+	background: url(../img/hd_eros.png) no-repeat;
+	height: 64px;
+	width: 106px;
+}
+#ut_bt {
+	background: url(../img/hd_Ut.png) no-repeat;
+	height: 64px;
+	width: 129px;
+}
+
+/* TOP PANEL */
+#topPanel {
+	width: 100%;
+	background-color: white;
+}
+#topMenu {width 100%;
+	border-color: #EBEBEB;
+	border-style: solid;
+	border-width: 1px 1px 0px 0px;
+	overflow: auto;
+}
+#topTitle {
+	background: url(../img/TitlePanel.png) no-repeat;
+	margin-left: 20px;
+	height: 94px;
+	width: 292px;
+}
+#topButtons {
+	font: 1.1em sans-serif;
+	color: #4A5769;
+	top: 60px;
+	position: relative;
+}
+.top_bt {
+	overflow: auto;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 3px 3px 0px 0px;
+}
+.top_bt:hover {
+	background-color: #e9e9e9;
+	cursor: pointer;
+}
+
+.top_bt .arrow_down {
+	margin-left: 5px;
+	top: 6px;
+	position: relative;
+}
+
+.topBtText {
+	float: left;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+#topBanner{
+	background: url(../img/mainPict.png) no-repeat;
+	height: 488px;
+	width: 977px;	
+	margin-left: auto;
+margin-right: auto;
+}
+#peopleNavigator{
+	
+}
+/* GENERAL CSS */
+.left {
+	float: left;
+}
+.right {
 	float: right;
 }
+.arrow_down {
+	background: url(../img/arrowDown.png) no-repeat;
+	height: 4px;
+	width: 7px;
+}
+
+/*.home_icon{
+ background: url(../img/hd_home.png) no-repeat;
+ width: 13px;
+ height: 12px;
+ }*/
